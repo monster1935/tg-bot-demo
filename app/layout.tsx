@@ -23,7 +23,7 @@ export default function RootLayout({
       />
       <Script
         id="ad-js"
-        src="/lib/ad.js"
+        src="/lib/helper.js"
       />
 
       <Script id="test-1">
