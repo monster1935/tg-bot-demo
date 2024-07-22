@@ -24,9 +24,16 @@ export default function RootLayout({
       </Head>
 
       <Script
+        async
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3262390360312134`}
+        strategy="lazyOnload"
+        crossOrigin="anonymous"
+      />
+
+      {/* <Script
         id="ad-js"
         src="/lib/helper.js"
-      />
+      /> */}
 
       <Script id="test-1">
         {
